@@ -1,342 +1,339 @@
 @font-face {
-	font-family: 'Montserrat';
-	src: url("/fonts/Montserrat-Regular.ttf") format('truetype');
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-Regular.ttf") format("truetype");
 }
 
 @font-face {
-	font-family: 'OpenSans';
-	src: url("/fonts/OpenSans-Regular.ttf") format('truetype');
+  font-family: "OpenSans";
+  src: url("/fonts/OpenSans-Regular.ttf") format("truetype");
 }
 
-button, html, input, select, textarea {
-	color: #000;
-	font-family: Montserrat,sans-serif;
-	font-style: normal;
+button,
+html,
+input,
+select,
+textarea {
+  color: #000;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
 }
 
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .wrapper {
-	max-width: 1140px;
-	margin: 0 auto;
-	padding: 0 10px;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 10px;
 }
 
 .banner {
-	background: #294366;
+  background: #294366;
 
-    &__container{
-        display: flex;
-	    align-items: center;
-		min-height: 564px;
-    }
+  &__container {
+    display: flex;
+    align-items: center;
+    min-height: 564px;
+  }
 
-    &__text {
-        max-width: 643px;
-        color: #fff;
-        margin-right: 40px;
-        text-align: left;    
-    }
+  &__text {
+    max-width: 643px;
+    color: #fff;
+    margin-right: 40px;
+    text-align: left;
+  }
 
-	&__image-item {
-		margin-bottom: 86px;
-	}
+  &__image-item {
+    margin-bottom: 86px;
+  }
 }
 
 .h1 {
-	font-size: 48px;
-	font-weight: 700;
-	margin-bottom: 25px;
-	line-height: 72px;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  line-height: 72px;
 }
 
 .subhead {
-	font-weight: 400;
-	font-size: 24px;
-	line-height: 37.2px;
-    max-width: 604px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 37.2px;
+  max-width: 604px;
 }
 
 .section-header {
-	font-weight: 600;
-	font-size: 36px;
-	text-align: center;
-	margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 .section-subhead {
-	font-size: 18px;
-	font-weight: 500;
-	text-align: center;
-	max-width: 800px;
-	margin: 0 auto;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .migration {
-	padding-top: 78px;
-	padding-bottom: 88px;
+  padding-top: 78px;
+  padding-bottom: 88px;
 
-	&__places {
-		margin-top: 100px;
-		margin-bottom: 45px;
-		list-style: none;
-		display: flex;
-		justify-content: space-around;
-		flex-wrap: wrap;
-	}
+  &__places {
+    margin-top: 100px;
+    margin-bottom: 45px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
 
-	&__place-item {
-		flex-basis: 33.333%;
-	}
+  &__place-item {
+    flex-basis: 33.333%;
+  }
 
-	&__place-logo {
-		display: block;
-		margin: 0 auto;
-		max-width: 100%;
-	}
+  &__place-logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
 
-	&__arrow {
-		text-align: center;
-		margin-bottom: 55px;
-		padding: 0 35%;
-	}
+  &__arrow {
+    text-align: center;
+    margin-bottom: 55px;
+    padding: 0 35%;
+  }
 
-	&__arrow-image {
-		max-width: 100%;
-	}
+  &__arrow-image {
+    max-width: 100%;
+  }
 
-	&__horoshop-logo {
-		text-align: center;
-		padding: 0 25%;
-	}
-	
-	&__horoshop-logo-image {
-		max-width: 100%;
-	}
+  &__horoshop-logo {
+    text-align: center;
+    padding: 0 25%;
+  }
 
+  &__horoshop-logo-image {
+    max-width: 100%;
+  }
 }
 
 .seo {
-	background: #F7F9FA;
-	padding-top: 62px;
+  background: #f7f9fa;
+  padding-top: 62px;
 
-	&__image-block {
-		margin-top: 65px;
-		margin-bottom: 75px;
-		text-align: center;
-	}
+  &__image-block {
+    margin-top: 65px;
+    margin-bottom: 75px;
+    text-align: center;
+  }
 
-	&__image {
-		max-width: 100%;
-	}
+  &__image {
+    max-width: 100%;
+  }
 
-	&__benefits {
-		list-style: none;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-		padding-bottom: 30px;
-		
-	}
+  &__benefits {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 30px;
+  }
 
-	&__benefit-item {
-		width: 340px;
-		margin-bottom: 55px;
-		box-sizing: border-box;
-	}
+  &__benefit-item {
+    width: 340px;
+    margin-bottom: 55px;
+    box-sizing: border-box;
+  }
 
-	&__benefit-title {
-		font-weight: 600;
-		font-size: 18px;
-		margin-bottom: 15px;
-	}
+  &__benefit-title {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
 
-	&__benefit-description {
-		font-family: OpenSans, sans-serif;
-		font-weight: 400;
-		font-size: 16px;
-		line-height: 27px;
-	}
+  &__benefit-description {
+    font-family: OpenSans, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+  }
 }
 
 .application {
-	background: #172E4D;
-	padding: 59px 0 80px 0;
+  background: #172e4d;
+  padding: 59px 0 80px 0;
 
-	&__header {
-		line-height: 47px;
-		color: #fff;
-		margin-bottom: 20px;
-	}
+  &__header {
+    line-height: 47px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
 
-	&__subhead {
-		color: #fff;
-		max-width: 580px;
-	}
+  &__subhead {
+    color: #fff;
+    max-width: 580px;
+  }
 }
 
-.application-form {	
-	max-width: 960px;
-	margin: 60px auto 0;
-	display: flex;
+.application-form {
+  max-width: 960px;
+  margin: 60px auto 0;
+  display: flex;
 
-	&__input {
-		margin: 0 10px;
-		flex-grow: 1;
-		max-width: 340px;
-	}
+  &__input {
+    margin: 0 10px;
+    flex-grow: 1;
+    max-width: 340px;
+  }
 
-	&__button {
-		margin: 0 10px;
-		max-width: 220px;
-		flex-grow: 1;
-	}
-
+  &__button {
+    margin: 0 10px;
+    max-width: 220px;
+    flex-grow: 1;
+  }
 }
 
 .field {
-	height: 48px;
-	padding-left: 20px;
-	font-size: 18px;
-	border-radius: 4px;
-	box-sizing: border-box;
-	width: 100%;
-	border: none;
-	outline: none;
+  height: 48px;
+  padding-left: 20px;
+  font-size: 18px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  border: none;
+  outline: none;
 }
 .btn {
-	height: 48px;
-	font-size: 18px;
-	border-radius: 4px;
-	text-align: center;
-	width: 100%;
-	border: none;
-	background: #69B510;
-	color: #fff;
-	
-	&:hover {
-		cursor: pointer;
-	}
+  height: 48px;
+  font-size: 18px;
+  border-radius: 4px;
+  text-align: center;
+  width: 100%;
+  border: none;
+  background: #69b510;
+  color: #fff;
+
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .valid {
-	border: 2px solid green;
+  border: 2px solid green;
 }
 
 .invalid {
-	border: 2px solid red;
+  border: 2px solid red;
 }
 
-@media  (min-width: 1390px) {
-	.banner__image {
-		max-width: 350px;
-	}
+@media (min-width: 1390px) {
+  .banner__image {
+    max-width: 350px;
+  }
 
-	.h1 {
-		font-size: 60px;
-	}
-
+  .h1 {
+    font-size: 60px;
+  }
 }
 
 @media (max-width: 1390px) {
+  .seo__benefit-item {
+    flex-basis: 50%;
+    padding: 0 20px;
+    width: auto;
+  }
 
-	.seo__benefit-item {
-		flex-basis: 50%;
-		padding: 0 20px;
-		width: auto;
-	}
-
-	.banner__container {
-		padding: 10px;
-	}
-
+  .banner__container {
+    padding: 10px;
+  }
 }
 
 @media (max-width: 980px) {
-	.migration__place-item {
-		flex-basis: 50%;
-	}
+  .migration__place-item {
+    flex-basis: 50%;
+  }
 
-	.banner__container {
-		flex-wrap: wrap;
-		justify-content: center;
-		padding-top: 20px;
-	}
+  .banner {
+    &__container {
+      flex-wrap: wrap;
+      justify-content: center;
+      padding-top: 20px;
+    }
 
-	.banner__text {
-		text-align: center;
-		margin-right: 0;
+    &__text {
+      text-align: center;
+      margin-right: 0;
+    }
+  }
 
-	}
+  .application-form {
+    max-width: 400px;
+    flex-wrap: wrap;
+    justify-content: center;
 
-	.application-form {
-		max-width: 400px;
-		flex-wrap: wrap;
-		justify-content: center;
+    &__input {
+      margin: 0 0 20px;
+      max-width: none;
+    }
 
-	}
-
-	.application-form__input {
-		margin: 0 0 20px;
-		max-width: none;
-	}
-
-	.application-form__button {
-		margin-top: 10px;
-	}
-
+    &__button {
+      margin-top: 10px;
+    }
+  }
 }
 
 @media (max-width: 640px) {
+  .h1 {
+    font-size: 28px;
+    line-height: 50px;
+  }
 
-	.seo__benefit-item {
-		flex-basis: 100%;
-		padding: 0 0;
-		margin-bottom: 30px;
-	}
+  .subhead {
+    font-size: 16px;
+  }
 
-	.h1 {
-		font-size: 28px;
-		line-height: 50px;
-	}
+  .section_header {
+    font-size: 28px;
+  }
 
-	.subhead {
-		font-size: 16px;
-	}
-	.section_header {
-		font-size: 28px;
-	}
-	.section_subhead {
-		font-size: 16px;
-	}
+  .section_subhead {
+    font-size: 16px;
+  }
 
-	.migration__places {
-		margin-top: 45px;
-	}
+  .migration {
+    padding-top: 40px;
+    padding-bottom: 45px;
 
-	.migration {
-		padding-top: 40px;
-		padding-bottom: 45px;
-	}
+    &__places {
+      margin-top: 45px;
+    }
+  }
 
-	.seo {
-		padding-top: 30px;
-	}
+  .seo {
+    padding-top: 30px;
 
-	.seo__image-block {
-		margin: 30px 0;
-	}
+    &__benefit-item {
+      flex-basis: 100%;
+      padding: 0 0;
+      margin-bottom: 30px;
+    }
+    &__image-block {
+      margin: 30px 0;
+    }
+  }
 
-	.banner__image {
-		max-width:100%;
-	}
+  .banner {
+    &__image {
+      max-width: 100%;
+    }
 
-	.banner__image-item {
-		width: 100%;
-		margin-bottom: 30px;
-
-	}
-
+    &__image-item {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+  }
 }
